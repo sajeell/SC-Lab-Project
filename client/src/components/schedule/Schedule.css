@@ -1,0 +1,54 @@
+.schedule-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(221, 167, 185);
+  margin-top: 100px;
+  height: 50vh;
+  align-items: center;
+}
+
+.schedule-wrapper h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+#all-routes-table {
+  border: 2px solid gray;
+  word-wrap: normal;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 2000px;
+}
+
+#all-routes-table td {
+  padding: 22px;
+  border: 1px solid gray;
+}
+
+#all-routes-table th {
+  text-transform: uppercase;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+#book-seat-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+#book-seat-button:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#ticket-quantity {
+  padding: 5px;
+  width: 300px;
+}
